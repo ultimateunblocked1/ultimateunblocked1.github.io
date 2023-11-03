@@ -6,6 +6,10 @@ choose one:
 
 https://ultimateunblocked.vercel.app/ (best)
 
+https://ultimateunblocked-demonickatsus-projects.vercel.app/ (vercel alt 1)
+
+https://ultimateunblocked-git-main-demonickatsus-projects.vercel.app/ (vercel alt 2)
+
 https://ultimateunblocked.pages.dev/ (retro bowl not working on this one)
 
 https://demonickatsu.github.io/ultimateunblocked/
