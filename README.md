@@ -17,3 +17,5 @@ https://ultimateunblocked.pages.dev/ (retro bowl not working on this one)
 https://demonickatsu.github.io/ultimateunblocked/
 
 https://ultimateunblocked.onrender.com/
+
+github says this repo is 20% C, what the heck?
