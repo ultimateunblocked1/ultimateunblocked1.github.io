@@ -12,8 +12,6 @@ https://ultimateunblocked-git-main-demonickatsus-projects.vercel.app/ (vercel al
 
 https://ultimateunblocked-77zo75ovf-demonickatsus-projects.vercel.app/ (vercel alt 3)
 
-https://ultimateunblocked.pages.dev/ (retro bowl not working on this one)
-
 https://demonickatsu.github.io/ultimateunblocked/
 
 https://ultimateunblocked.onrender.com/
