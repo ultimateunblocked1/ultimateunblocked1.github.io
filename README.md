@@ -10,8 +10,6 @@ https://ultimateunblocked-demonickatsus-projects.vercel.app/ (vercel alt 1)
 
 https://ultimateunblocked-git-main-demonickatsus-projects.vercel.app/ (vercel alt 2)
 
-https://ultimateunblocked-77zo75ovf-demonickatsus-projects.vercel.app/ (vercel alt 3)
-
 https://demonickatsu.github.io/ultimateunblocked/
 
 https://ultimateunblocked.onrender.com/
