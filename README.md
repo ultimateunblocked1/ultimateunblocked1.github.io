@@ -14,4 +14,4 @@ https://demonickatsu.github.io/ultimateunblocked/
 
 https://ultimateunblocked.onrender.com/
 
-github says this repo is 20% C, what the heck?
+github says this repo is 20% C, what?
