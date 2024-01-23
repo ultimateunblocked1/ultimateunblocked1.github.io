@@ -1,5 +1,5 @@
 // connect to websocket
-var ws_uri = "ws://localhost:9600";
+var ws_uri = "ws://ultimateunblocked.vercel.app:9600";
 var websocket = new WebSocket(ws_uri);
 
 // socket open:
