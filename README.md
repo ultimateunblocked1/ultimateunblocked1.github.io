@@ -3,7 +3,6 @@ it's the unblocked games website to end all unblocked games websites.
 
 choose one:
 
-
 https://ultimateunblocked.vercel.app/ (best)
 
 https://ultimateunblocked-demonickatsus-projects.vercel.app/ (vercel alt 1)
