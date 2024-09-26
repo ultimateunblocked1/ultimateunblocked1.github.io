@@ -1,42 +1,62 @@
 /* elasticity.css by gdi */
 /* use with credit */
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 html {
   font-family: "Montserrat", sans-serif;
 }
+
 input[type='text'] {
     font-family: 'Montserrat', sans-serif;
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
 }
+
 input[type='text']:focus {
     scale: 105%;
 }
+
 input[type='checkbox'] {
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
 }
+
 input[type='checkbox']:checked {
     scale:120%
 }
+
 input[type='range'] {
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
 }
+
 input[type='range']:active {
     scale: 105%;
 }
+
 button {
     font-family: 'Montserrat', monospace;
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
 }
+
 button:active {
     scale: 90%;
 }
+
 button:not(:active) {
     scale: 100%;
 }
+
 select {
     font-family: 'Montserrat', monospace;
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
 }
+
 select:focus {
     scale: 110%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: block;
 }
