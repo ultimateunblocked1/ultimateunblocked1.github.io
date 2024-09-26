@@ -54,7 +54,7 @@ select:focus {
     scale: 110%;
 }
 
-ul {
+ul#games-list {
     list-style-type: none;
     padding: 0;
     margin: 0;
