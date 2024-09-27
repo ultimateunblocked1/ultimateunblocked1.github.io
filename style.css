@@ -1,4 +1,4 @@
-/* darkicity.css by gdi & demonickatsu*/
+/* darkicity.css by gdi & demonickatsu */
 /* use with credit */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
@@ -61,6 +61,7 @@ input[type='range']:active {
 button {
     font-family: 'Montserrat', monospace;
     transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
+    transition: background-color 0.15s ease-in-out;
     background-color: #33293f;
     color: #e0e0e0;
     border: 1.5px solid #6209cf;
