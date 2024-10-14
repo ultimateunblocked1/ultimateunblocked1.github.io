@@ -4,11 +4,15 @@
 <li class="games"><a id="30dollarwebsite" href="games/30dollarwebsite/index.html"><button>30dollarwebsite</button></a></li>
 <li class="games"><a id="alienhominid" href="games/alienhominid/index.html"><button>Alienhominid</button></a></li>
 <li class="games"><a id="among-us" href="games/among-us/index.html"><button>Among-us</button></a></li>
+<li class="games"><a id="bad-ice-cream-1" href="games/bad-ice-cream/1/index.html"><button>Bad-ice-cream 1</button></a></li>
+<li class="games"><a id="bad-ice-cream-2" href="games/bad-ice-cream/2/index.html"><button>Bad-ice-cream 2</button></a></li>
+<li class="games"><a id="bad-ice-cream-3" href="games/bad-ice-cream/3/index.html"><button>Bad-ice-cream 3</button></a></li>
 <li class="games"><a id="ballistic-chickens" href="games/ballistic-chickens/index.html"><button>Ballistic-chickens</button></a></li>
 <li class="games"><a id="basketball-stars" href="games/basketball-stars/index.html"><button>Basketball-stars</button></a></li>
 <li class="games"><a id="basketbros" href="games/basketbros/index.html"><button>Basketbros</button></a></li>
 <li class="games"><a id="basket-random" href="games/basket-random/index.html"><button>Basket-random</button></a></li>
 <li class="games"><a id="bitlife" href="games/bitlife/index.html"><button>Bitlife</button></a></li>
+<li class="games"><a id="blackjack" href="games/blackjack/index.html"><button>Blackjack</button></a></li>
 <li class="games"><a id="bloons-td2" href="games/bloons/td2/index.html"><button>Bloons Td2</button></a></li>
 <li class="games"><a id="bloons-td3" href="games/bloons/td3/index.html"><button>Bloons Td3</button></a></li>
 <li class="games"><a id="bloons-td4" href="games/bloons/td4/index.html"><button>Bloons Td4</button></a></li>
@@ -36,6 +40,7 @@
 <li class="games"><a id="ducklife3" href="games/ducklife3/index.html"><button>Ducklife3</button></a></li>
 <li class="games"><a id="dumb-ways-to-die" href="games/dumb-ways-to-die/index.html"><button>Dumb-ways-to-die</button></a></li>
 <li class="games"><a id="eaglercraft" href="games/eaglercraft/index.html"><button>Eaglercraft</button></a></li>
+<li class="games"><a id="eaglercraft-x" href="games/eaglercraft-x/index.html"><button>Eaglercraft-x</button></a></li>
 <li class="games"><a id="evolution" href="games/evolution/index.html"><button>Evolution</button></a></li>
 <li class="games"><a id="fancy-pants" href="games/fancy-pants/index.html"><button>Fancy-pants</button></a></li>
 <li class="games"><a id="fnaf-1" href="games/fnaf/1/index.html"><button>Fnaf 1</button></a></li>
@@ -55,7 +60,7 @@
 <li class="games"><a id="l2f-1" href="games/l2f/1/index.html"><button>L2f 1</button></a></li>
 <li class="games"><a id="l2f-2" href="games/l2f/2/index.html"><button>L2f 2</button></a></li>
 <li class="games"><a id="l2f-3" href="games/l2f/3/index.html"><button>L2f 3</button></a></li>
-<li class="games"><a id="motox3m" href="games/motox3m/index.html"><button>Motox3m</button></a></li>
+<li class="games"><a id="monkey-mart" href="games/monkey-mart/index.html"><button>Monkey-mart</button></a></li>
 <li class="games"><a id="msc2" href="games/msc2/index.html"><button>Msc2</button></a></li>
 <li class="games"><a id="ovo" href="games/OvO/index.html"><button>Ovo</button></a></li>
 <li class="games"><a id="ovom-1.4.1" href="games/OvOM/1.4.1/index.html"><button>Ovom 1.4.1</button></a></li>
@@ -84,9 +89,13 @@
 <li class="games"><a id="papas-pizzeria" href="games/papas/pizzeria/index.html"><button>Papas Pizzeria</button></a></li>
 <li class="games"><a id="papas-tacomia" href="games/papas/tacomia/index.html"><button>Papas Tacomia</button></a></li>
 <li class="games"><a id="papas-wingeria" href="games/papas/wingeria/index.html"><button>Papas Wingeria</button></a></li>
+<li class="games"><a id="paperio2" href="games/paperio2/index.html"><button>Paperio2</button></a></li>
 <li class="games"><a id="portalflash" href="games/portalflash/index.html"><button>Portalflash</button></a></li>
 <li class="games"><a id="pvz" href="games/pvz/index.html"><button>Pvz</button></a></li>
 <li class="games"><a id="raftwars" href="games/raftwars/index.html"><button>Raftwars</button></a></li>
+<li class="games"><a id="red-ball-1" href="games/red-ball/1/index.html"><button>Red-ball 1</button></a></li>
+<li class="games"><a id="red-ball-2" href="games/red-ball/2/index.html"><button>Red-ball 2</button></a></li>
+<li class="games"><a id="red-ball-4" href="games/red-ball/4/index.html"><button>Red-ball 4</button></a></li>
 <li class="games"><a id="retrobowl" href="games/retrobowl/index.html"><button>Retrobowl</button></a></li>
 <li class="games"><a id="riddle-school-1" href="games/riddle-school/1/index.html"><button>Riddle-school 1</button></a></li>
 <li class="games"><a id="riddle-school-2" href="games/riddle-school/2/index.html"><button>Riddle-school 2</button></a></li>
@@ -97,6 +106,7 @@
 <li class="games"><a id="rooftop-snipers" href="games/rooftop-snipers/index.html"><button>Rooftop-snipers</button></a></li>
 <li class="games"><a id="run3" href="games/run3/index.html"><button>Run3</button></a></li>
 <li class="games"><a id="run3-run-3-beta" href="games/run3/run/3/beta/index.html"><button>Run3 Run 3 Beta</button></a></li>
+<li class="games"><a id="sandboxels" href="games/sandboxels/index.html"><button>Sandboxels</button></a></li>
 <li class="games"><a id="slope" href="games/slope/index.html"><button>Slope</button></a></li>
 <li class="games"><a id="sm64" href="games/sm64/index.html"><button>Sm64</button></a></li>
 <li class="games"><a id="smashflash-1" href="games/smashflash/1/index.html"><button>Smashflash 1</button></a></li>
@@ -113,6 +123,7 @@
 <li class="games"><a id="subwaysurfers" href="games/subwaysurfers/index.html"><button>Subwaysurfers</button></a></li>
 <li class="games"><a id="superhot" href="games/superhot/index.html"><button>Superhot</button></a></li>
 <li class="games"><a id="tanuki-sunset" href="games/tanuki-sunset/index.html"><button>Tanuki-sunset</button></a></li>
+<li class="games"><a id="tetris-js" href="games/tetris-js/index.html"><button>Tetris-js</button></a></li>
 <li class="games"><a id="there-is-no-game" href="games/there-is-no-game/index.html"><button>There-is-no-game</button></a></li>
 <li class="games"><a id="usf" href="games/usf/index.html"><button>Usf</button></a></li>
 <li class="games"><a id="vex-3" href="games/vex/3/index.html"><button>Vex 3</button></a></li>
@@ -120,6 +131,8 @@
 <li class="games"><a id="vex-5" href="games/vex/5/index.html"><button>Vex 5</button></a></li>
 <li class="games"><a id="vex-6" href="games/vex/6/index.html"><button>Vex 6</button></a></li>
 <li class="games"><a id="wbwwb" href="games/wbwwb/index.html"><button>Wbwwb</button></a></li>
+<li class="games"><a id="webquake-client" href="games/webquake/Client/index.html"><button>Webquake Client</button></a></li>
 <li class="games"><a id="whg" href="games/whg/index.html"><button>Whg</button></a></li>
 <li class="games"><a id="worlds-hardest-game-2" href="games/worlds-hardest-game-2/index.html"><button>Worlds-hardest-game-2</button></a></li>
+<li class="games"><a id="yohoho" href="games/yohoho/index.html"><button>Yohoho</button></a></li>
 <li class="games"><a id="zombs-royale" href="games/zombs-royale/index.html"><button>Zombs-royale</button></a></li>
