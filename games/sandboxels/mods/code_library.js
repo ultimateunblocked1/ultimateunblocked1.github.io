@@ -1,6 +1,14 @@
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
 //URL
 
 	urlParams = new URLSearchParams(window.location.search);
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //Objects
 
@@ -9,6 +17,10 @@
 	function getKeyByValue(object, value) {
 	  return Object.keys(object).find(key => object[key] === value);
 	};
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //RNG
 
@@ -76,6 +88,10 @@
 		};
 		return Math.floor(randomFunction() * (max - min + 1)) + min
 	};
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //Arrays
 
@@ -157,6 +173,10 @@
 			throw new TypeError(`Unexpected type: ${typeof(stringOrArray)}`);
 		};
 	};
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //Checks
 
@@ -260,6 +280,10 @@
 		return false;
 	};
 
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
 //Math(s)
 
 	//Base n logarithm from https://stackoverflow.com/a/3019290
@@ -304,6 +328,10 @@
 	function scale (number, inMin, inMax, outMin, outMax) {
 		return (number - inMin) * (outMax - outMin) / (inMax - inMin) + outMin;
 	}
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //Color
 
@@ -1182,7 +1210,11 @@
 	  //console.log(`Hexed to #${f(0)}${f(8)}${f(4)}`)
 	  return `#${f(0)}${f(8)}${f(4)}`;
 	};
-		
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
 //Pixels
 
 	function exposedToAir(pixel) {	
@@ -1353,7 +1385,20 @@
 		if(Array.isArray(breakIntoElement)) {
 			breakIntoElement = breakIntoElement[Math.floor(Math.random() * breakIntoElement.length)]
 		};
-		changePixel(pixel,breakIntoElement,changetemp)
+		var result = breakIntoElement;
+		// change the pixel to the result
+		if (result === null) {
+			deletePixel(pixel.x,pixel.y);
+			return;
+		}
+		if (elements[pixel.element].breakIntoColor) {
+			var oldelement = pixel.element;
+			changePixel(pixel,result,changetemp);
+			pixel.color = pixelColorPick(pixel, elements[oldelement].breakIntoColor);
+		}
+		else {
+			changePixel(pixel,result,changetemp);
+		}
 	};
 
 	function tryBreak(pixel,changetemp=false,defaultBreakIntoDust=false) {
@@ -1540,6 +1585,10 @@
 		return true;
 	};
 
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
 //World
 
 	function breakCircle(x,y,radius,respectHardness=false,changeTemp=false,defaultBreakIntoDust=false) {
@@ -1639,6 +1688,10 @@
 		return true;
 	};
 
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
 //Logic
 
 	function xor(c1,c2) {
@@ -1650,6 +1703,10 @@
 			return false;
 		};
 	};
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //currentPixels operations
 
@@ -1710,6 +1767,10 @@
 	};
 
 
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
 //Sugar functions
 
 	function newElement(name="element_name",color="#FF00FF",otherProps={}) {
@@ -1721,6 +1782,10 @@
 		};
 		return elements[name];
 	};
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
 
 //Fixes
 
@@ -1747,4 +1812,16 @@
 				}
 			}
 		}*/
+	};
+
+libraryLoaded = true;
+this.libraryLoaded = true;
+window.libraryLoaded = true;
+
+runAfterLoad(function() {
+	if(!libraryLoaded) {
+		libraryLoaded = true;
+		this.libraryLoaded = true;
+		window.libraryLoaded = true
 	}
+})

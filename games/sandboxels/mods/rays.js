@@ -1,8 +1,28 @@
+function whenAvailable(names, callback) {
+    var interval = 10; // ms
+    window.setTimeout(function() {
+		let bool = true;
+		for(let i = 0; i < names.length; i++)
+		{
+			if(!window[names[i]])
+			{
+				bool = false;
+			}
+		}
+        if (bool) {
+            callback();
+        } else {
+            whenAvailable(names, callback);
+        }
+    }, interval);
+}
+
 var modName = "mods/rays.js";
-var runAfterAutogenMod = "mods/runAfterAutogen and onload restructure.js";
+var runAfterAutogenMod = "mods/runAfterAutogen2.js";
 var libraryMod = "mods/code_library.js";
 
 if(enabledMods.includes(runAfterAutogenMod) && enabledMods.includes(libraryMod)) {
+whenAvailable(["raaLoaded","libraryLoaded"], function() {
 	runAfterAutogen(function() {
 		snowAndIceCache = Object.keys(elements).filter(function(name) {
 			return name.endsWith("snow") || name.endsWith("ice") || name == "rime"
@@ -244,13 +264,13 @@ if(enabledMods.includes(runAfterAutogenMod) && enabledMods.includes(libraryMod))
 				else {
 					var otherPixel = pixelMap[x][y]
 					var otherInfo = elements[otherPixel.element];
-					otherPixel.temp += 400;
+					otherPixel.temp += (400 * (shiftDown + 1));
 					if(otherPixel.del) { continue };
 					if (!(grbBreakIntos.includes(otherPixel.element))) {
 						if (otherInfo.isGas) {
-							if(Math.random() > ((otherInfo.hardness ?? 0) ** 4)) { breakPixel(otherPixel,false,false) };
+							if(Math.random() > ((otherInfo.hardness ?? 0) ** (4 + shiftDown))) { breakPixel(otherPixel,false,false) };
 							if(hasVelocity && otherPixel && !(lightlikes.includes(otherPixel.element))) {
-								var vels = [randomIntegerBetweenTwoValues(-7,7),randomIntegerBetweenTwoValues(-7,7)];
+								var vels = [randomIntegerBetweenTwoValues(-7 - (shiftDown * 2),7 + (shiftDown * 2)),randomIntegerBetweenTwoValues(-7 - (shiftDown * 2),7 + (shiftDown * 2))];
 								otherPixel.vx = vels[0];
 								otherPixel.vy = vels[1];
 							};
@@ -258,13 +278,13 @@ if(enabledMods.includes(runAfterAutogenMod) && enabledMods.includes(libraryMod))
 							
 						};
 						if (otherInfo.id === elements[pixel.element].id) { break }
-						if(Math.random() > ((otherInfo.hardness ?? 0) ** 2)) { breakPixel(otherPixel,false,false) };
+						if(Math.random() > ((otherInfo.hardness ?? 0) ** (2 + shiftDown))) { breakPixel(otherPixel,false,false) };
 						if(hasVelocity && otherPixel) {
-							var vels = [randomIntegerBetweenTwoValues(-9,9),randomIntegerBetweenTwoValues(-7,0)];
+							var vels = [randomIntegerBetweenTwoValues(-9 - (shiftDown * 2),9 + (shiftDown * 2)),randomIntegerBetweenTwoValues(-7 - (shiftDown * 2),0 + (shiftDown * 2))];
 							otherPixel.vx = vels[0];
 							otherPixel.vy = vels[1];
 						};
-						if(Math.random() < Math.max(0.9,0.4 + ((1 - (otherInfo.hardness ?? 0)) / 2))) { //thanks, I hate random continue
+						if(Math.random() < ((shiftDown / 20) + (Math.max(0.9,0.4 + ((1 - (otherInfo.hardness ?? 0)) / 2))))) { //thanks, I hate random continue
 							continue;
 						};
 						break;
@@ -435,7 +455,7 @@ if(enabledMods.includes(runAfterAutogenMod) && enabledMods.includes(libraryMod))
             }
         }
 	};
-
+});
 } else {
 	if(!enabledMods.includes(libraryMod))			{ enabledMods.splice(enabledMods.indexOf(modName),0,libraryMod) };
 	if(!enabledMods.includes(runAfterAutogenMod))	{ enabledMods.splice(enabledMods.indexOf(modName),0,runAfterAutogenMod) };
