@@ -23,8 +23,10 @@ game assets:
 
 [Hell (yes, that is the name of the website)](https://github.com/D3ch/hell)
 
-[R74n (for sandboxels)](https://github.com/R74nCom)
+[R74n (for sandboxels)](https://github.com/R74nCom/sandboxels)
 
 [reunbozdo (for block blast)](https://github.com/reunbozdo/reunbozdo.github.io)
 
 [gstore (for almost all of our flash games)](https://github.com/BinBashBanana/gstore)
+
+[arjun99ab (for modded ovo)](https://github.com/Arjun99ab/ovo)
