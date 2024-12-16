@@ -13,6 +13,7 @@
 <li class="games"><a id="basket-random" href="games/basket-random/index.html"><button>basket-random </button></a></li>
 <li class="games"><a id="bitlife" href="games/bitlife/index.html"><button>bitlife </button></a></li>
 <li class="games"><a id="blackjack" href="games/blackjack/index.html"><button>blackjack </button></a></li>
+<li class="games"><a id="block-blast" href="games/block-blast/index.html"><button>block-blast </button></a></li>
 <li class="games"><a id="bloons-td2" href="games/bloons/td2/index.html"><button>bloons td2 </button></a></li>
 <li class="games"><a id="bloons-td3" href="games/bloons/td3/index.html"><button>bloons td3 </button></a></li>
 <li class="games"><a id="bloons-td4" href="games/bloons/td4/index.html"><button>bloons td4 </button></a></li>
@@ -42,6 +43,7 @@
 <li class="games"><a id="ducklife" href="games/ducklife/index.html"><button>ducklife </button></a></li>
 <li class="games"><a id="eaglercraft-1.8.8" href="games/eaglercraft-1.8.8/index.html"><button>eaglercraft-1.8.8 </button></a></li>
 <li class="games"><a id="eaglercraft" href="games/eaglercraft/index.html"><button>eaglercraft </button></a></li>
+<li class="games"><a id="eggy-car" href="games/eggy-car/index.html"><button>eggy-car </button></a></li>
 <li class="games"><a id="espn-ab" href="games/espn-ab/index.html"><button>espn-ab </button></a></li>
 <li class="games"><a id="evolution" href="games/evolution/index.html"><button>evolution </button></a></li>
 <li class="games"><a id="fancy-pants" href="games/fancy-pants/index.html"><button>fancy-pants </button></a></li>
@@ -87,13 +89,17 @@
 <li class="games"><a id="ovom-src-van1.4" href="games/OvOM/src/van1.4/index.html"><button>ovom src van1.4 </button></a></li>
 <li class="games"><a id="ovom-src-vandim" href="games/OvOM/src/vandim/index.html"><button>ovom src vandim </button></a></li>
 <li class="games"><a id="papalouie2" href="games/papalouie2/index.html"><button>papalouie2 </button></a></li>
+<li class="games"><a id="papas-bakeria" href="games/papas/bakeria/index.html"><button>papas bakeria </button></a></li>
 <li class="games"><a id="papas-burgeria" href="games/papas/burgeria/index.html"><button>papas burgeria </button></a></li>
 <li class="games"><a id="papas-cheeseria" href="games/papas/cheeseria/index.html"><button>papas cheeseria </button></a></li>
 <li class="games"><a id="papas-donuteria" href="games/papas/donuteria/index.html"><button>papas donuteria </button></a></li>
 <li class="games"><a id="papas-freezeria" href="games/papas/freezeria/index.html"><button>papas freezeria </button></a></li>
+<li class="games"><a id="papas-hotdoggeria" href="games/papas/hotdoggeria/index.html"><button>papas hotdoggeria </button></a></li>
+<li class="games"><a id="papas-pancakeria" href="games/papas/pancakeria/index.html"><button>papas pancakeria </button></a></li>
 <li class="games"><a id="papas-pastaria" href="games/papas/pastaria/index.html"><button>papas pastaria </button></a></li>
 <li class="games"><a id="papas-pizzeria" href="games/papas/pizzeria/index.html"><button>papas pizzeria </button></a></li>
 <li class="games"><a id="papas-scooperia" href="games/papas/scooperia/index.html"><button>papas scooperia </button></a></li>
+<li class="games"><a id="papas-sushiria" href="games/papas/sushiria/index.html"><button>papas sushiria </button></a></li>
 <li class="games"><a id="papas-tacomia" href="games/papas/tacomia/index.html"><button>papas tacomia </button></a></li>
 <li class="games"><a id="papas-wingeria" href="games/papas/wingeria/index.html"><button>papas wingeria </button></a></li>
 <li class="games"><a id="paperio2" href="games/paperio2/index.html"><button>paperio2 </button></a></li>
@@ -131,6 +137,7 @@
 <li class="games"><a id="stickman-hook" href="games/stickman-hook/index.html"><button>stickman-hook </button></a></li>
 <li class="games"><a id="subwaysurfers" href="games/subwaysurfers/index.html"><button>subwaysurfers </button></a></li>
 <li class="games"><a id="superhot" href="games/superhot/index.html"><button>superhot </button></a></li>
+<li class="games"><a id="super-meat-boy" href="games/super-meat-boy/index.html"><button>super-meat-boy </button></a></li>
 <li class="games"><a id="tactical-weapon-pack-2" href="games/tactical-weapon-pack-2/index.html"><button>tactical-weapon-pack-2 </button></a></li>
 <li class="games"><a id="tanuki-sunset" href="games/tanuki-sunset/index.html"><button>tanuki-sunset </button></a></li>
 <li class="games"><a id="tetris-js" href="games/tetris-js/index.html"><button>tetris-js </button></a></li>
