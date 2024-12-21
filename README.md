@@ -30,3 +30,7 @@ game assets:
 [gstore (for almost all of our flash games)](https://github.com/BinBashBanana/gstore)
 
 [arjun99ab (for modded ovo)](https://github.com/Arjun99ab/ovo)
+
+if you want your game removed, raise a github issue.
+
+if there's a problem with a game, please don't use the requests form to tell us. raise a github issue for that too.
