@@ -7,10 +7,11 @@ html {
     font-family: "Montserrat", sans-serif;
     height: max-content;
     min-height: 100%;
+    text-align: center;
 }
 
 body {
-    background: radial-gradient(circle at top right, #400085 0%, #060606 400vh);
+    background: radial-gradient(circle at top right, #3000a0 0%, #000000 300vh);
     color: #b0b0b0;
 }
 
@@ -66,7 +67,7 @@ button {
     color: #e0e0e0;
     border: 1.5px solid #6209cf;
     padding: 5px 10px;
-    margin: 1.5px 0px;
+    /* margin: 1.5px 0px; */
     cursor: pointer;
     border-radius: 10px;
 }
@@ -93,8 +94,27 @@ select:focus {
 }
 
 ul#games-list {
-    list-style-type: none;
+    list-style: none;
     padding: 0;
     margin: 0;
-    display: block;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#search {
+    width: 100%;
+    max-width: 800px;
+    font-size: 10pt;
+    transition: scale 0.25s cubic-bezier(0.2, 2.5, 1, 1);
+    text-align: center;
+}
+
+#search:focus {
+    scale: 105%;
 }
